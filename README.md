@@ -1,3 +1,2 @@
-# hello-world
+# Lesson-6
 My first repository!
-Text --bla bla bla---

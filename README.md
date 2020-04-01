@@ -1,2 +1,2 @@
-# Lesson-6
+#lesson-6
 My first repository!

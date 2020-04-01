@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    border: 3px solid #b70f0a;
+    background-color: #ff8351;
+    padding: 0px 10px;
+    height: 50px;
+    line-height: 50px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top:0;
+} 
+   
+.hero-block {
+    position: relative;
+    padding: 10px 10px;
+    height: 350px;
+    width: 100%;
+    border: 3px solid #355723;
+    background-color: #dfedd6;
+    margin-top: 50px;
+}
+
+.login-form {
+    background-color: white;
+    border: 3px solid purple;
+    display: inline-block;
+    height: 220px;
+    width: 250px;
+    position: absolute;
+    padding: 10px 10px;
+    right: 100px;
+    top: 50px;
+    text-align: center;
+}
+
+main {
+    height: 500px;
+    width: 100%;
+    padding: 10px 10px;
+    border: 3px solid #0844a4;
+    background-color: #c9f1fd;
+    display: flex;
+    flex-flow: column;
+}
+
+.article-group {
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+article {
+    border: 3px solid #9c29b7;
+    background-color: #F6D5F8;
+    padding: 10px 10px;
+    width: 40%;
+    height: 250px;
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;   
+}
+
+.article-image-1 {
+    padding: 10px;
+    float: right;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .article-image-2 {
+   padding: 10px; 
+   float: left;
+   width: 150px;
+   height: 150px;
+   margin-right: 20px;
+   margin-bottom: 20px;
+  }
+
+footer {
+    border: 3px solid #553d0d;
+    background-color: #ffc957;
+    padding: 10px 10px;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    bottom: 0px;    
+}
